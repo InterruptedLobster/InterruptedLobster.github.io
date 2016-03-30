@@ -39,6 +39,10 @@ ul {
   padding: 0;
 }
 
+.portrait {
+  max-width: 40%;
+}
+
 a,
 a:hover,
 a:active,
