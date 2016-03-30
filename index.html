@@ -16,22 +16,36 @@
         <h3>The easy way to find a place</h3>
         <nav>
           <ul class="horizontal">
-            <li><a href="#who">Development Team</a></li>
             <li><a href="#what">What Is This?</a></li>
-            <li><a href="#how">How Does It Work?</a></li>
             <li><a href="#why">Why Did We Make It?</a></li>
+            <li><a href="#how">How Was It Made?</a></li>
+            <li><a href="#who">Who Are We?</a></li>
           </ul>
         </nav>
       </header>
       <div class="content center">
         <div id="what">
-          <h2>What Is This?</h2>
+          <h2>What Is FindAR?</h2>
+          <p>FindAR is an Augmented Reality application that allows a user to find locations on a map, or using their phone's camera, and share those locations with their friends.</p>
+          <div class="gallery clearfix">
+            <div id="map" class="gallery_img float_left">
+              <img id="map_img" class="demo" src="./assets/map.png" alt="A map with a user's locations">
+              <p class="caption">A map with a user's locations</p>
+            </div>
+            <div id="map" class="gallery_img float_right">
+              <img id="ar_img" class="demo" src="./assets/ar.png" alt="An augmented reality view of a pin from the map">
+              <p class="caption">An augmented reality view of a pin from the map</p>
+            </div>
+          </div>
         </div>
         <div id="why">
           <h2>Why Was This Made?</h2>
+          <p>Have you ever had a difficult time meeting a friend for lunch? "I'm at the corner of Turk and Mason," they say. "So am I. I see a shoe store and a jewelry store," you say. "I see those things, but I don't see you. Where are you?"</p>
+          <p>These conversations can be a thing of the past. Our app allows you to share a location with your friends, and see it appear over your phone's camera for quicky, efficient navigation.</p>
         </div>
         <div id="how">
           <h2>How Was This Made?</h2>
+          <p>We leveraged Facebook's React Native framework to write FindAR almost completely in JavaScript -- but the best thing about React Native is not porting JavaScript to native components, but being able to use the React methodology in writing apps. We used Redux to manage our data flow as well. We hacked together the augmented reality system by overlaying a transparent webview running THREE.js over a react component rendering the phone's native camera.</p>
         </div>
         <div id="who">
         <h2>Who Are We?</h2>
