@@ -76,11 +76,12 @@ a:link {
 
   .gallery {
     margin: 0 auto;
-    width: 769px;
+    width: 100%;
+    max-width: 769px;
   }
 
-  .gallery_img {
-    width: calc( 769px / 2 );
+  .gallery_img img {
+    width: 100%;
   }
 
   .float_left {
