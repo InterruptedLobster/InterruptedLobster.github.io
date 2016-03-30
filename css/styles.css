@@ -43,6 +43,14 @@ ul {
   max-width: 80%;
 }
 
+.top {
+  font-size: 12px;
+}
+
+.top::after {
+  content: " ";
+}
+
 a,
 a:hover,
 a:active,
