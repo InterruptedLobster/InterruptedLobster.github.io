@@ -65,6 +65,7 @@ ul {
 }
 
 .portrait {
+  margin-bottom: 10px;
   max-width: 80%;
 }
 
@@ -113,6 +114,10 @@ ul {
   width: 80%;
 }
 
+.hidden {
+  display: none;
+}
+
 @media ( min-width: 769px) {
 
   nav ul li {
@@ -153,8 +158,13 @@ ul {
     display: inline-block;
   }
 
-  .portrait {
-    max-width: 65%;
+  .people: {
+    display: inline-block;
+  }
+
+  .people li {
+    float: left;
+    max-width: 45%;
   }
 
 }
@@ -166,8 +176,9 @@ ul {
     max-width: 1150px;
   }
 
-  .portrait {
-    max-width: 50%;
+  .people li {
+    float: left;
+    max-width: 25%;
   }
 
 }

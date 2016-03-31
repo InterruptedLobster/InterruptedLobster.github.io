@@ -4,3 +4,14 @@ $('a').click(function(){
     }, 500);
     return false;
 });
+
+$('.people li').click( function() {
+  var $p = $( this ).children( 'p' );
+  if( $p.hasClass( 'hidden' ) ) {
+    $p.removeClass( 'hidden' );
+    $( this ).addClass( 'clearfix' );
+  } else {
+    $p.addClass( 'hidden' );
+    $( this ).removeClass( 'clearfix' );
+  }
+});
